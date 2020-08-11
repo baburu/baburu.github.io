@@ -194,3 +194,11 @@ body { }
     justify-content: center;
     z-index: 1;
 }
+
+.nav-link-cu a {
+    color: white;
+}
+
+.nav-link-cu a:hover {
+    color: orange;
+  }
