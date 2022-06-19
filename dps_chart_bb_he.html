@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="./css/template.css" type="text/css" rel="stylesheet">
+    <link href="./css/research.css" type="text/css" rel="stylesheet">
+    <link href="./css/dpstable.css" type="text/css" rel="stylesheet">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- DataTables -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script> 
+    <script>$(document).ready( function () {
+      $('.table').DataTable({
+        paging: false,
+        searching: false,
+        columnDefs: [ 
+          {"targets": [ 1, 2 ],"orderable": false,},
+          {"targets": [ 0 ],"visible": false,} 
+        ],
+        order: [[12, 'desc']] 
+      });
+      $('.my-popover').popover();
+    } );</script>
+    <!-- /DataTables -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <title>Dps Chart - Battleships HE</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="page-nav">
+                <div class="icon-top"><img src="img/template/icon_bg_top_1920.png" /></div>
+                <div class="navbar-links">
+                    <div class="nav-link-cu">Guides</div>
+                    <div class="nav-link-cu">Equips</div>
+                    <div class="nav-link-cu"><a href="https://www.twitch.tv/baburubaburu">Stream</a></div>
+                </div>
+            </div>
+        </nav>
+        <div class="header-diamond"></div>
+    </header>
+
+    <div class="title-wrap">
+        <div class="title">
+            <span style="font-size:16pt;">DPS CHART - BATTLESHIPS HE</span>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <table id="tableid" class="table table-striped table-dark">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Ship</th>
+                <th scope="col">Slot 1</th>
+                <th scope="col">Barrage 1</th>
+                <th scope="col">Barrage 2</th>
+                <th scope="col">Total</th>
+                <th scope="col">Main Gun</th>
+                <th scope="col">Main Gun %</th>
+                <th scope="col">Skill %</th>
+                <th scope="col">Light</th>
+                <th scope="col">Medium</th>
+                <th scope="col">Heavy</th>
+                <th scope="col">Average</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>
+                  <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="CN=乌尔里希·冯·胡滕 </br> Sideline Position </br> Flagship=2301.9 avg dps" data-toggle="popover" data-trigger="focus">
+                      <img src="./img/table-icons/Ulrich_von_HuttenIcon.png">
+                  </a>
+                </td>
+                <td class="slot1"><img class="item_ur" src="./img/table-icons/gear/14400.png"></td>
+                <td class="barragedps">390.2</td>
+                <td class="barragedps">347.8</td>
+                <td class="barragedps">738.0</td>
+                <td class="mgdps">1999.4</td>
+                <td class="asdmg">73</td>
+                <td class="asdmg">27</td>
+                <td class="lightdps">3296.8</td>
+                <td class="mediumdps">2774.6</td>
+                <td class="heavydps">2128.6</td>
+                <td class="avgdps">2737.4</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>
+                  <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="CN=新泽西" data-toggle="popover" data-trigger="focus">
+                      <img src="./img/table-icons/New_JerseyIcon.png">
+                  </a>
+                </td>
+                <td class="slot1"><img class="item_ur" src="./img/table-icons/gear/14400.png"></td>
+                <td class="barragedps">509.3</td>
+                <td class="barragedps">488.0</td>
+                <td class="barragedps">997.3</td>
+                <td class="mgdps">1670.6</td>
+                <td class="asdmg">63</td>
+                <td class="asdmg">37</td>
+                <td class="lightdps">2991.7</td>
+                <td class="mediumdps">2731.2</td>
+                <td class="heavydps">2259.8</td>
+                <td class="avgdps">2667.9</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>
+                  <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="CN=腓特烈大帝" data-toggle="popover" data-trigger="focus">
+                      <img src="./img/table-icons/Friedrich_der_GrosseIcon.png">
+                  </a>
+                </td>
+                <td class="slot1"><img class="item_ur" src="./img/table-icons/gear/14400.png"></td>
+                <td class="barragedps">418.5</td>
+                <td class="barragedps">0.0</td>
+                <td class="barragedps">418.5</td>
+                <td class="mgdps">1765.2</td>
+                <td class="asdmg">81</td>
+                <td class="asdmg">19</td>
+                <td class="lightdps">2678.7</td>
+                <td class="mediumdps">2128.8</td>
+                <td class="heavydps">1762.2</td>
+                <td class="avgdps">2183.8</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>
+                  <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="CN=前卫" data-toggle="popover" data-trigger="focus">
+                      <img src="./img/table-icons/VanguardIcon.png">
+                  </a>
+                </td>
+                <td class="slot1"><img class="item_ur" src="./img/table-icons/gear/14400.png"></td>
+                <td class="barragedps">541.6</td>
+                <td class="barragedps">0.0</td>
+                <td class="barragedps">541.6</td>
+                <td class="mgdps">1528.0</td>
+                <td class="asdmg">74</td>
+                <td class="asdmg">26</td>
+                <td class="lightdps">2434.7</td>
+                <td class="mediumdps">2029.0</td>
+                <td class="heavydps">1758.6</td>
+                <td class="avgdps">2069.6</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>
+                  <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="CN=厌战" data-toggle="popover" data-trigger="focus">
+                      <img src="./img/table-icons/WarspiteKaiIcon.png">
+                  </a>
+                </td>
+                <td class="slot1"><img class="item_ur" src="./img/table-icons/gear/14400.png"></td>
+                <td class="barragedps">334.6</td>
+                <td class="barragedps">0.0</td>
+                <td class="barragedps">334.6</td>
+                <td class="mgdps">1716.6</td>
+                <td class="asdmg">84</td>
+                <td class="asdmg">16</td>
+                <td class="lightdps">2233.6</td>
+                <td class="mediumdps">2133.8</td>
+                <td class="heavydps">1758.8</td>
+                <td class="avgdps">2051.2</td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>
+                  <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="CN=豪" data-toggle="popover" data-trigger="focus">
+                      <img src="./img/table-icons/HoweIcon.png">
+                  </a>
+                </td>
+                <td class="slot1"><img class="item_ur" src="./img/table-icons/gear/14400.png"></td>
+                <td class="barragedps">428.4</td>
+                <td class="barragedps">0.0</td>
+                <td class="barragedps">428.4</td>
+                <td class="mgdps">1538.1</td>
+                <td class="asdmg">78</td>
+                <td class="asdmg">22</td>
+                <td class="lightdps">2363.5</td>
+                <td class="mediumdps">1857.0</td>
+                <td class="heavydps">1715.7</td>
+                <td class="avgdps">1966.6</td>
+              </tr>
+              <tr>
+                <th scope="row">7</th>
+                <td>
+                  <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="CN=香槟" data-toggle="popover" data-trigger="focus">
+                      <img src="./img/table-icons/ChampagneIcon.png">
+                  </a>
+                </td>
+                <td class="slot1"><img class="item_ur" src="./img/table-icons/gear/14400.png"></td>
+                <td class="barragedps">231.8</td>
+                <td class="barragedps">149.0</td>
+                <td class="barragedps">380.8</td>
+                <td class="mgdps">1569.7</td>
+                <td class="asdmg">80</td>
+                <td class="asdmg">20</td>
+                <td class="lightdps">2144.5</td>
+                <td class="mediumdps">1945.8</td>
+                <td class="heavydps">1763.0</td>
+                <td class="avgdps">1950.6</td>
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td>
+                  <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="CN=格奈森瑙" data-toggle="popover" data-trigger="focus">
+                      <img src="./img/table-icons/Gneisenau_MetaIcon.png">
+                  </a>
+                </td>
+                <td class="slot1"><img class="item_ur" src="./img/table-icons/gear/14400.png"></td>
+                <td class="barragedps">450.2</td>
+                <td class="barragedps">245.0</td>
+                <td class="barragedps">695.2</td>
+                <td class="mgdps">1212.1</td>
+                <td class="asdmg">63</td>
+                <td class="asdmg">37</td>
+                <td class="lightdps">2208.2</td>
+                <td class="mediumdps">1896.1</td>
+                <td class="heavydps">1696.2</td>
+                <td class="avgdps">1929.8</td>
+              </tr>
+              <tr>
+                <th scope="row">9</th>
+                <td>
+                  <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="CN=反击" data-toggle="popover" data-trigger="focus">
+                      <img src="./img/table-icons/Repulse_MetaIcon.png">
+                  </a>
+                </td>
+                <td class="slot1"><img class="item_ur" src="./img/table-icons/gear/14400.png"></td>
+                <td class="barragedps">434.7</td>
+                <td class="barragedps">84.3</td>
+                <td class="barragedps">519.0</td>
+                <td class="mgdps">1322.7</td>
+                <td class="asdmg">72</td>
+                <td class="asdmg">28</td>
+                <td class="lightdps">2470.1</td>
+                <td class="mediumdps">1703.2</td>
+                <td class="heavydps">1398.2</td>
+                <td class="avgdps">1841.8</td>
+              </tr>
+              <tr>
+                <th scope="row">10</th>
+                <td>
+                  <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="CN=塞德利茨" data-toggle="popover" data-trigger="focus">
+                      <img src="./img/table-icons/SeydlitzIcon.png">
+                  </a>
+                </td>
+                <td class="slot1"><img class="item_ur" src="./img/table-icons/gear/14400.png"></td>
+                <td class="barragedps">66.5</td>
+                <td class="barragedps">0.0</td>
+                <td class="barragedps">66.5</td>
+                <td class="mgdps">1730.6</td>
+                <td class="asdmg">96</td>
+                <td class="asdmg">4</td>
+                <td class="lightdps">2241.7</td>
+                <td class="mediumdps">1743.9</td>
+                <td class="heavydps">1423.7</td>
+                <td class="avgdps">1797.2</td>
+              </tr>
+              <tr>
+                <th scope="row">11</th>
+                <td>
+                  <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="CN=黎塞留" data-toggle="popover" data-trigger="focus">
+                      <img src="./img/table-icons/RichelieuIcon.png">
+                  </a>
+                </td>
+                <td class="slot1"><img class="item_ur" src="./img/table-icons/gear/14400.png"></td>
+                <td class="barragedps">257.8</td>
+                <td class="barragedps">0.0</td>
+                <td class="barragedps">257.8</td>
+                <td class="mgdps">1502.2</td>
+                <td class="asdmg">84</td>
+                <td class="asdmg">16</td>
+                <td class="lightdps">2225.9</td>
+                <td class="mediumdps">1747.2</td>
+                <td class="heavydps">1424.3</td>
+                <td class="avgdps">1793.9</td>
+              </tr>
+              <tr>
+                <th scope="row">12</th>
+                <td>
+                  <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="CN=沙恩霍斯特" data-toggle="popover" data-trigger="focus">
+                      <img src="./img/table-icons/Scharnhorst_METAIcon.png">
+                  </a>
+                </td>
+                <td class="slot1"><img class="item_ur" src="./img/table-icons/gear/14400.png"></td>
+                <td class="barragedps">497.1</td>
+                <td class="barragedps">152.4</td>
+                <td class="barragedps">649.5</td>
+                <td class="mgdps">1110.3</td>
+                <td class="asdmg">63</td>
+                <td class="asdmg">37</td>
+                <td class="lightdps">1868.0</td>
+                <td class="mediumdps">1817.8</td>
+                <td class="heavydps">1574.3</td>
+                <td class="avgdps">1759.8</td>
+              </tr>
+              <tr>
+                <th scope="row">13</th>
+                <td>
+                  <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="CN=马可波罗" data-toggle="popover" data-trigger="focus">
+                      <img src="./img/table-icons/Marco_PoloIcon.png">
+                  </a>
+                </td>
+                <td class="slot1"><img class="item_ur" src="./img/table-icons/gear/14400.png"></td>
+                <td class="barragedps">328.2</td>
+                <td class="barragedps">148.5</td>
+                <td class="barragedps">476.7</td>
+                <td class="mgdps">1269.8</td>
+                <td class="asdmg">73</td>
+                <td class="asdmg">27</td>
+                <td class="lightdps">2044.5</td>
+                <td class="mediumdps">1897.6</td>
+                <td class="heavydps">1247.0</td>
+                <td class="avgdps">1746.5</td>
+              </tr>
+              <tr>
+                <th scope="row">14</th>
+                <td>
+                  <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="CN=维托里奥·维内托" data-toggle="popover" data-trigger="focus">
+                      <img src="./img/table-icons/Vittorio_VenetoIcon.png">
+                  </a>
+                </td>
+                <td class="slot1"><img class="item_ur" src="./img/table-icons/gear/14400.png"></td>
+                <td class="barragedps">255.9</td>
+                <td class="barragedps">220.8</td>
+                <td class="barragedps">476.7</td>
+                <td class="mgdps">1248.6</td>
+                <td class="asdmg">72</td>
+                <td class="asdmg">28</td>
+                <td class="lightdps">1954.5</td>
+                <td class="mediumdps">1736.3</td>
+                <td class="heavydps">1481.3</td>
+                <td class="avgdps">1725.3</td>
+              </tr>
+              <tr>
+                <th scope="row">15</th>
+                <td>
+                  <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="CN=奥丁" data-toggle="popover" data-trigger="focus">
+                      <img src="./img/table-icons/OdinIcon.png">
+                  </a>
+                </td>
+                <td class="slot1"><img class="item_ur" src="./img/table-icons/gear/14400.png"></td>
+                <td class="barragedps">336.6</td>
+                <td class="barragedps">474.3</td>
+                <td class="barragedps">810.9</td>
+                <td class="mgdps">913</td>
+                <td class="asdmg">53</td>
+                <td class="asdmg">47</td>
+                <td class="lightdps">1970.0</td>
+                <td class="mediumdps">1696.0</td>
+                <td class="heavydps">1516.7</td>
+                <td class="avgdps">1724.4</td>
+              </tr>
+              <tr>
+                <th scope="row">16</th>
+                <td>
+                  <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="CN= 让·巴尔" data-toggle="popover" data-trigger="focus">
+                      <img src="./img/table-icons/Jean_BartIcon.png">
+                  </a>
+                </td>
+                <td class="slot1"><img class="item_ur" src="./img/table-icons/gear/14400.png"></td>
+                <td class="barragedps">0.0</td>
+                <td class="barragedps">0.0</td>
+                <td class="barragedps">0.0</td>
+                <td class="mgdps">1655.3</td>
+                <td class="asdmg">100</td>
+                <td class="asdmg">0</td>
+                <td class="lightdps">2050.8</td>
+                <td class="mediumdps">1611.3</td>
+                <td class="heavydps">1318.4</td>
+                <td class="avgdps">1655.3</td>
+              </tr>
+              <tr>
+                <th scope="row">17</th>
+                <td>
+                  <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="CN=英王乔治五世" data-toggle="popover" data-trigger="focus">
+                      <img src="./img/table-icons/King_George_VIcon.png">
+                  </a>
+                </td>
+                <td class="slot1"><img class="item_ur" src="./img/table-icons/gear/14400.png"></td>
+                <td class="barragedps">145.3</td>
+                <td class="barragedps">0.0</td>
+                <td class="barragedps">145.3</td>
+                <td class="mgdps">1503.1</td>
+                <td class="asdmg">91</td>
+                <td class="asdmg">9</td>
+                <td class="lightdps">1978.6</td>
+                <td class="mediumdps">1604.2</td>
+                <td class="heavydps">1377.1</td>
+                <td class="avgdps">1648.4</td>
+              </tr>
+              <tr>
+                <th scope="row">18</th>
+                <td>
+                  <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="CN=威尔士亲王" data-toggle="popover" data-trigger="focus">
+                      <img src="./img/table-icons/Prince_of_WalesIcon.png">
+                  </a>
+                </td>
+                <td class="slot1"><img class="item_ur" src="./img/table-icons/gear/14400.png"></td>
+                <td class="barragedps">0.0</td>
+                <td class="barragedps">0.0</td>
+                <td class="barragedps">0.0</td>
+                <td class="mgdps">1620.1</td>
+                <td class="asdmg">100</td>
+                <td class="asdmg">0</td>
+                <td class="lightdps">2007.2</td>
+                <td class="mediumdps">1577.1</td>
+                <td class="heavydps">1290.4</td>
+                <td class="avgdps">1620.1</td>
+              </tr>
+              <tr>
+                <th scope="row">19</th>
+                <td>
+                  <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="CN=君主" data-toggle="popover" data-trigger="focus">
+                      <img src="./img/table-icons/MonarchIcon.png">
+                  </a>
+                </td>
+                <td class="slot1"><img class="item_ur" src="./img/table-icons/gear/14400.png"></td>
+                <td class="barragedps">431.3</td>
+                <td class="barragedps">0.0</td>
+                <td class="barragedps">431.3</td>
+                <td class="mgdps">1150.7</td>
+                <td class="asdmg">73</td>
+                <td class="asdmg">27</td>
+                <td class="lightdps">1601.7</td>
+                <td class="mediumdps">1670.3</td>
+                <td class="heavydps">1444.6</td>
+                <td class="avgdps">1582.0</td>
+              </tr>
+              <tr>
+                <th scope="row">20</th>
+                <td>
+                  <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="CN=鞍山" data-toggle="popover" data-trigger="focus">
+                      <img src="./img/table-icons/An_ShanKaiIcon.png">
+                  </a>
+                </td>
+                <td class="slot1"><img class="item_ssr" src="./img/table-icons/gear/56000.png"></td>
+                <td class="barragedps">21.8</td>
+                <td class="barragedps">9.0</td>
+                <td class="barragedps">30.8</td>
+                <td class="mgdps">1501.3</td>
+                <td class="asdmg">100</td>
+                <td class="asdmg">0</td>
+                <td class="lightdps">1929.3</td>
+                <td class="mediumdps">1488.1</td>
+                <td class="heavydps">1193.7</td>
+                <td class="avgdps">1532.2</td>
+              </tr>
+
+              
+            </tbody>
+          </table>
+
+
+
+    </div>
+</body>
+</html>

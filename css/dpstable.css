@@ -1,0 +1,129 @@
+
+
+/* DPS CHART */
+
+
+
+
+
+.mgdps {
+    color: burlywood;
+}
+
+.asdps {
+    color: burlywood;
+}
+
+.torpdps {
+    color: mediumspringgreen;
+}
+
+.barragedps {
+    color: orchid;
+}
+
+.skilldps {
+    color: orchid;
+}
+
+.dotdps {
+    color: crimson;
+}
+
+.lightdps {
+    color: lightgrey;
+}
+
+.mediumdps {
+    color: orange;
+}
+
+.heavydps {
+    color: tomato;
+}
+
+.avgdps {
+    color: orangered;
+}
+
+.asdmg {
+    color: skyblue;
+}
+
+
+img {
+    width: 70px;
+    padding:5px;
+}
+
+/* datables */
+
+table.dataTable tbody tr.even {
+    background-color: inherit;
+}
+
+.dataTables_info {
+    display: none;
+}
+
+
+
+#tableid.table-dark td, #tableid.table-dark th, #tableid.table-dark thead th {
+    text-align: center;
+    font-weight: 700;
+    vertical-align: middle;
+    min-width: 70px;
+
+
+}
+
+#tableid.table-dark td {
+    font-size: 20px;
+    padding: 5px;
+}
+
+#tableid.table-dark thead th {
+    background-position: center bottom 6px;
+    padding: 5px 0px 30px;
+}
+
+#tableid.table-dark tbody th {
+    padding: 5px;
+}
+
+
+/* popover */
+
+
+a.btn {
+    padding: 0;
+    border: 0;
+}
+
+a.btn:hover {
+    background-color: gold;
+    cursor: pointer;
+}
+
+a.btn:focus {
+    box-shadow: none;
+}
+
+/* item rarities */
+
+.item_r {
+    background: url(../img/table-icons/gear/rarity/itm_r.png);
+    background-position: 0px 630px;
+    background-size: 100%;
+}
+
+.item_ssr {
+    background: url(../img/table-icons/gear/rarity/itm_r.png);
+    background-position: 0px 140px;
+    background-size: 100%;
+}
+.item_ur {
+    background: url(../img/table-icons/gear/rarity/itm_r.png);
+    background-position: 0px 70px;
+    background-size: 100%;
+}
