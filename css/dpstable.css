@@ -127,3 +127,18 @@ a.btn:focus {
     background-position: 0px 70px;
     background-size: 100%;
 }
+
+
+/* footer */
+
+.babufooter {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+.babufooter a {
+    color: rgb(79, 220, 255);
+}

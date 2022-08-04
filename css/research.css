@@ -202,3 +202,18 @@ body { }
 .nav-link-cu a:hover {
     color: orange;
   }
+
+
+  /* footer */
+
+.babufooter {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+.babufooter a {
+    color: rgb(79, 220, 255);
+}
