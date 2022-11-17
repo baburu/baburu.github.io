@@ -1,0 +1,211 @@
+@font-face {
+  font-family: "LemonMilk";
+  src: url("../fonts/LemonMilk.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "LemonMilk2";
+  src: url("../fonts/LemonMilkbold.otf") format("opentype");
+}
+
+body {
+}
+
+.title {
+  font-family: "LemonMilk";
+  font-size: 24pt;
+  width: 400px;
+  color: white;
+  text-shadow: 1px 1px 4px #666666, 0 0 0.5em black, 0 0 0.2em #666666;
+}
+
+.title-wrap {
+  display: flex;
+  justify-content: center;
+  width: 1140px;
+  margin-top: 40px;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.main-container {
+  width: 1200px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.font-large {
+  font-size: 20px;
+}
+
+.font-small {
+  font-size: 14px;
+}
+
+.type,
+.type-icon {
+  display: flex;
+  position: absolute;
+}
+
+.type img {
+  height: 100%;
+  width: 100%;
+}
+
+.type-icon {
+  right: 40px;
+  top: 50px;
+}
+
+.rarity-blue {
+  background: url(../img/res/res_rar4.png);
+}
+
+.rarity-blue .timer {
+  background: dodgerblue;
+}
+
+.rarity-purple {
+  background: url(../img/res/res_rar3.png);
+}
+
+.rarity-purple .timer {
+  background: mediumpurple;
+}
+
+.rarity-gold {
+  background: url(../img/res/res_rar2.png);
+}
+
+.rarity-gold .timer {
+  background: orange;
+}
+
+.rarity-rainbow {
+  background: url(../img/res/res_rar1.png);
+}
+
+.rarity-rainbow .timer {
+  background: hotpink;
+}
+
+.research {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: 200px;
+  width: 550px;
+  position: relative;
+}
+
+.research .timer,
+.research .code,
+.research .tags {
+  font-family: "LemonMilk";
+}
+
+.research-row {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.row-break {
+  margin-bottom: 40px;
+}
+
+.loot {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.loot .small {
+  width: 65px;
+  height: 65px;
+  align-self: flex-end;
+  margin-left: 10px;
+}
+
+.loot .small:first-child {
+  margin-left: 0;
+}
+
+.loot img {
+  border: 1px solid #eee;
+  box-shadow: 0 0 3px 0 #444;
+}
+
+.timer {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  line-height: 60px;
+  padding: 2px 20px 2px 20px;
+}
+
+.code,
+.cost {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 22px;
+  z-index: 1;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0px 5px 0px 5px;
+}
+
+.cost {
+  top: 48px;
+  font-size: 1rem;
+}
+
+.cost img {
+  width: 33px;
+  padding: 2px;
+}
+
+.cost-text,
+.cost-text2 {
+  position: absolute;
+  bottom: -3px;
+  color: white;
+  text-shadow: 1px 1px 4px black, 0 0 0.5em black, 0 0 0.2em black;
+}
+
+.cost-text {
+  left: 26px;
+}
+
+.cost-text2 {
+  right: 3px;
+}
+
+.tags {
+  width: 180px;
+  position: absolute;
+  font-size: 20px;
+  display: flex;
+  left: 182px;
+  text-align: center;
+  flex-direction: column;
+  bottom: 10px;
+  padding: 0px 5px 0px 5px;
+  text-shadow: 1px 1px 4px black, 0 0 0.5em black, 0 0 0.2em black;
+  color: white;
+  justify-content: center;
+  z-index: 1;
+}
+
+.nav-link-cu a {
+  color: white;
+}
+
+.nav-link-cu a:hover {
+  color: orange;
+}

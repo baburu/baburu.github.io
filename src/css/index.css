@@ -1,0 +1,450 @@
+body {
+  /*background-color: rgb(48, 48, 48) !important;*/
+}
+
+.layer0 {
+  /*background: url(../img/bgs/sea_mnz.png);*/
+  background-color: rgb(48, 48, 48);
+  /*width: 1280px;*/
+  /*height: 720px;*/
+  max-width: 1280px;
+  position: relative;
+  margin: auto;
+}
+
+.build-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: rgb(32, 32, 32);
+}
+
+.build-search {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: rgb(43, 43, 43);
+}
+
+.searchbox {
+  margin: 20px;
+}
+
+.layership {
+  width: 510px;
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+}
+
+.layership img {
+  flex-shrink: 0;
+  min-height: 100%;
+  min-width: 100%;
+  margin-top: 75px;
+}
+
+.shipname {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  color: peachpuff;
+  font-size: 2.5rem;
+  font-weight: 700;
+  width: 100%;
+  height: 80px;
+  bottom: 5%;
+  background-color: rgb(40, 40, 40, 0.8);
+}
+
+/* ------------- LOADOUTS CONTAINER ----- */
+
+.loadouts {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 720px;
+  width: 800px;
+  right: 0%;
+  position: absolute;
+  z-index: 1;
+  overflow: auto;
+}
+
+/* ------------- LOADOUTS <a> Vertical Align ----- */
+
+.loadouts a {
+  display: flex;
+}
+
+/* ------------- LOADOUTS ROWS ----- */
+
+.loadout1,
+.loadout2,
+.loadout3,
+.loadout4,
+.loadout5 {
+  width: 720px;
+  height: 300px;
+  margin: 30px;
+  display: flex;
+  justify-content: inherit;
+  background-color: rgb(10, 10, 10, 0.8);
+  flex-flow: row wrap;
+  outline: solid #e2e2e2 1px;
+}
+
+/* ------l1 header-------- */
+
+.loadout-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: white;
+  padding-left: 20px;
+  height: 40px;
+  width: 100%;
+  background: -moz-linear-gradient(
+    left,
+    rgba(30, 87, 153, 1) 0%,
+    rgba(41, 137, 216, 0.5) 50%,
+    rgba(32, 124, 202, 0.49) 51%,
+    rgba(125, 185, 232, 0) 100%
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(30, 87, 153, 1) 0%,
+    rgba(41, 137, 216, 0.5) 50%,
+    rgba(32, 124, 202, 0.49) 51%,
+    rgba(125, 185, 232, 0) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(30, 87, 153, 1) 0%,
+    rgba(41, 137, 216, 0.5) 50%,
+    rgba(32, 124, 202, 0.49) 51%,
+    rgba(125, 185, 232, 0) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=1 );
+}
+
+/* ------l1 footer-------- */
+
+.loadout-footer {
+  display: flex;
+  font-weight: 700;
+  font-size: 1rem;
+  color: silver;
+  padding: 15px;
+  height: 110px;
+}
+
+.footer-desc {
+  background-color: rgb(48, 48, 48, 0.8);
+  width: 690px;
+  height: 80px;
+  padding: 10px;
+  overflow: auto;
+}
+
+/* ------------- (L1) ITEMS IMG ----- */
+
+.loadout1 .item1 img,
+.item2 img,
+.item3 img,
+.item4 img,
+.item5 img {
+  width: 100px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* ------------- (L1) ITEM 1 ----- */
+
+.loadout1 .item1 {
+  /*background: url(../img/bgs/itm_r.png);*/
+  background-position: 0 -260px;
+}
+
+/* ------------- (L1) ITEM 2 ----- */
+
+.loadout1 .item2 {
+  /*background: url(../img/bgs/itm_r.png);*/
+  background-position: 0 250px;
+}
+
+/* ------------- (L1) ITEM 3 ----- */
+
+.loadout1 .item3 {
+  /*background: url(../img/bgs/itm_r.png);*/
+  background-position: 0 250px;
+}
+
+/* ------------- (L1) ITEM 4 ----- */
+
+.loadout1 .item4 {
+  /*background: url(../img/bgs/itm_r.png);*/
+  background-position: 0 250px;
+}
+
+/* ------------- (L1) ITEM 5 ----- */
+
+.loadout1 .item5 {
+  /*background: url(../img/bgs/itm_r.png);*/
+  background-position: 0 250px;
+}
+
+/* ------------- ITEMS CLASS ----- */
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5 {
+  width: 128px;
+  height: 128px;
+  border: 5px solid white;
+  background-color: peru;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ------------- MODAL POPUP WINDOW ----- */
+
+.modal-header.custom {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  background-color: rgb(48, 48, 48, 0.8);
+  color: white;
+  border: 0;
+  border-radius: 0;
+  border-top: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+  border-left: 1px solid #dee2e6;
+}
+
+.modal-content.custom {
+  position: absolute;
+  background-color: rgb(48, 48, 48, 0);
+  text-align: center;
+  width: 512px;
+  margin: top;
+}
+
+.modal-body.custom {
+  background-color: rgb(48, 48, 48, 0.8);
+  /*background: url(../img/bgs/gear_rarity.png);*/
+  background-position: 0 -395px;
+  height: 190px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item_popup {
+  height: 80%;
+}
+
+.modal-footer.custom {
+  background-color: rgb(48, 48, 48, 0.8);
+  color: gold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+  border-left: 1px solid #dee2e6;
+  border-top: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 20px 10px 20px;
+  background-color: rgb(0, 0, 0, 0.6);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.modal-body.custom2 {
+  background-color: rgb(48, 48, 48, 0.8);
+  /*background: url(../img/bgs/gear_rarity.png);*/
+  background-position: 0 385px;
+  height: 190px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-body.custom3 {
+  background-color: rgb(48, 48, 48, 0.8);
+  /*background: url(../img/bgs/gear_rarity.png);*/
+  background-position: 0 385px;
+  height: 190px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-body.custom4 {
+  background-color: rgb(48, 48, 48, 0.8);
+  /*background: url(../img/bgs/gear_rarity.png);*/
+  background-position: 0 385px;
+  height: 190px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-body.custom5 {
+  background-color: rgb(48, 48, 48, 0.8);
+  /*background: url(../img/bgs/gear_rarity.png);*/
+  background-position: 0 385px;
+  height: 190px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-title.custom {
+  margin-left: 10px;
+}
+
+.modal-header.custom .close {
+  user-select: none;
+  font-size: 3rem;
+  line-height: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+body.modal-open .layer0 {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+/* tierlist-css */
+
+.tierlist {
+  display: flex;
+}
+
+.row {
+  display: flex;
+  flex: wrap;
+}
+
+/* DPS CHART */
+
+.table-dark td,
+.table-dark th,
+.table-dark thead th {
+  border-color: #454d55;
+  text-align: center;
+
+  font-weight: 700;
+  font-size: 20pt;
+}
+
+.mgdps {
+  color: burlywood;
+}
+
+.asdps {
+  color: burlywood;
+}
+
+.torpdps {
+  color: mediumspringgreen;
+}
+
+.barragedps {
+  color: orchid;
+}
+
+.skilldps {
+  color: orchid;
+}
+
+.dotdps {
+  color: crimson;
+}
+
+.lightdps {
+  color: lightgrey;
+}
+
+.mediumdps {
+  color: orange;
+}
+
+.heavydps {
+  color: tomato;
+}
+
+.avgdps {
+  color: orangered;
+}
+
+.asdmg {
+  color: skyblue;
+}
+
+.table > tbody > tr > td {
+  padding: 0px;
+  vertical-align: middle;
+}
+
+img {
+  width: 70px;
+  padding: 5px;
+}
+
+/* datables */
+
+table.dataTable tbody tr.even {
+  background-color: inherit;
+}
+
+/* popover */
+
+a.btn {
+  padding: 0;
+  border: 0;
+}
+
+a.btn:hover {
+  background-color: gold;
+  cursor: pointer;
+}
+
+a.btn:focus {
+  box-shadow: none;
+}

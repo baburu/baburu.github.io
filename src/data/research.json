@@ -1,0 +1,219 @@
+[
+  [
+    {
+      "key": "1",
+      "rarity": "rainbow",
+      "timer": "00:30",
+      "code": "D-022-MI",
+      "cost1": "5",
+      "cost1Resource": "./img/res/cube.png",
+      "cost2": "5k",
+      "cost2Resource": "./img/res/gold.png",
+      "tags": [
+        { "key": "1_1", "name": "Unskippable" },
+        { "key": "1_2", "name": "Drake Focus" }
+      ],
+      "loot": [{ "key": "1_3 ", "type": "./img/res/drake_icon.png" }],
+      "type": "./img/res/drake.png",
+      "typeClass": "type"
+    },
+    {
+      "key": "2",
+      "rarity": "gold",
+      "timer": "00:30",
+      "code": "Q-0XX-UL",
+      "cost1": "20",
+      "cost1Resource": "./img/res/plate.png",
+      "cost2": "5k",
+      "cost2Resource": "./img/res/gold.png",
+      "tags": [
+        { "key": "2_1", "name": "Unskippable" },
+        { "key": "2_2", "name": "Rainbow Focus" }
+      ],
+      "loot": [
+        { "key": "2_3", "type": "./img/res/rbw_icon.png" },
+        { "key": "2_4", "type": "./img/res/random_gear.png", "class": "small" }
+      ],
+      "type": "./img/res/gold_3.png",
+      "typeClass": "type type-icon"
+    }
+  ],
+  [
+    {
+      "key": "3",
+      "rarity": "blue",
+      "timer": "02:30",
+      "code": "D-722-MI",
+      "cost2": "3k",
+      "cost2Resource": "./img/res/gold.png",
+      "tags": [
+        { "key": "3_1", "name": "Unskippable" },
+        { "key": "3_2", "name": "Drake Focus" },
+        { "key": "3_3", "name": "Rainbow Chance", "class": "font-small" }
+      ],
+      "loot": [
+        { "key": "3_4", "type": "./img/res/drake_icon.png" },
+        { "key": "3_5", "type": "./img/res/rbw_icon.png", "class": "small" }
+      ],
+      "type": "./img/res/drake.png",
+      "typeClass": "type"
+    },
+    {
+      "key": "4",
+      "rarity": "purple",
+      "timer": "04:00",
+      "code": "G-531-MI",
+      "cost2": "6k",
+      "cost2Resource": "./img/res/gold.png",
+      "tags": [
+        { "key": "4_1", "name": "Unskippable" },
+        { "key": "4_2", "name": "Rainbow Focus" },
+        { "key": "4_3", "name": "Drake Chance", "class": "font-small" }
+      ],
+      "loot": [
+        { "key": "4_4", "type": "./img/res/rbw_icon.png" },
+        { "key": "4_5", "type": "./img/res/drake_icon.png", "class": "small" }
+      ],
+      "type": "./img/res/gold_2.png",
+      "typeClass": "type type-icon"
+    },
+    {
+      "key": "5",
+      "rarity": "purple",
+      "timer": "04:00",
+      "code": "Q-0XX-MI",
+      "cost2": "20",
+      "cost2Resource": "./img/res/plate.png",
+      "tags": [{ "key": "5_1", "name": "Rainbow Focus" }],
+      "loot": [
+        { "key": "5_2", "type": "./img/res/rbw_icon.png" },
+        { "key": "5_3", "type": "./img/res/random_gear.png", "class": "small" }
+      ],
+      "type": "./img/res/gold_2.png",
+      "typeClass": "type type-icon"
+    },
+    {
+      "key": "6",
+      "rarity": "blue",
+      "timer": "01:00",
+      "code": "H-387-MI",
+      "cost2": "3",
+      "cost2Resource": "./img/res/cube.png",
+      "tags": [
+        { "key": "6_1", "name": "Drake Focus" },
+        { "key": "6_2", "name": "Reset", "class": "font-small" }
+      ],
+      "loot": [{ "key": "6_3", "type": "./img/res/drake_icon.png" }],
+      "type": "./img/res/gold_1.png",
+      "typeClass": "type type-icon"
+    }
+  ],
+  [
+    {
+      "key": "7",
+      "rarity": "blue",
+      "timer": "02:00",
+      "code": "Q-2XX-MI",
+      "cost2": "20",
+      "cost2Resource": "./img/res/plate2.png",
+      "tags": [
+        { "key": "7_1", "name": "Rainbow Focus" },
+        { "key": "7_2", "name": "Reset", "class": "font-small" }
+      ],
+      "loot": [
+        { "key": "7_3", "type": "./img/res/rbw_icon.png" },
+        { "key": "7_4", "type": "./img/res/random_gear.png", "class": "small" }
+      ],
+      "type": "./img/res/gold_1.png",
+      "typeClass": "type type-icon"
+    },
+    {
+      "key": "8",
+      "rarity": "blue",
+      "timer": "01:00",
+      "code": "Q-3XX-MI",
+      "cost2": "20",
+      "cost2Resource": "./img/res/plate3.png",
+      "tags": [
+        { "key": "8_1", "name": "Rainbow Focus" },
+        { "key": "8_2", "name": "Reset", "class": "font-small" }
+      ],
+      "loot": [
+        { "key": "8_3", "type": "./img/res/rbw_icon.png" },
+        { "key": "8_4", "type": "./img/res/random_gear.png", "class": "small" }
+      ],
+      "type": "./img/res/gold_1.png",
+      "typeClass": "type type-icon"
+    },
+    {
+      "key": "9",
+      "rarity": "blue",
+      "timer": "01:30",
+      "code": "G-412-MI",
+      "cost2": "1.5k",
+      "cost2Resource": "./img/res/gold.png",
+      "tags": [
+        { "key": "9_1", "name": "Reset" },
+        { "key": "9_2", "name": "Drake Chance", "class": "font-small" },
+        { "key": "9_3", "name": "Rainbow Chance", "class": "font-small" }
+      ],
+      "loot": [
+        { "key": "9_4", "type": "./img/res/drake_icon.png", "class": "small" },
+        { "key": "9_5", "type": "./img/res/rbw_icon.png", "class": "small" }
+      ],
+      "type": "./img/res/gold_1.png",
+      "typeClass": "type type-icon"
+    },
+    {
+      "key": "10",
+      "rarity": "blue",
+      "timer": "02:30",
+      "code": "G-236-MI",
+      "cost2": "3k",
+      "cost2Resource": "./img/res/gold.png",
+      "tags": [
+        { "key": "10_1", "name": "Reset" },
+        { "key": "10_2", "name": "Drake Chance", "class": "font-small" },
+        { "key": "10_3", "name": "Rainbow Chance", "class": "font-small" }
+      ],
+      "loot": [
+        { "key": "10_4", "type": "./img/res/drake_icon.png", "class": "small" },
+        { "key": "10_5", "type": "./img/res/rbw_icon.png", "class": "small" }
+      ],
+      "type": "./img/res/gold_1.png",
+      "typeClass": "type type-icon"
+    }
+  ],
+  [
+    {
+      "key": "11",
+      "rarity": "purple",
+      "timer": "05:00",
+      "code": "D-322-MI",
+      "cost2": "5k",
+      "cost2Resource": "./img/res/gold.png",
+      "tags": [{ "key": "11_1", "name": "Before Sleep" }],
+      "loot": [
+        { "key": "11_2", "type": "./img/res/drake_icon.png" },
+        { "key": "11_3", "type": "./img/res/rbw_icon.png", "class": "small" }
+      ],
+      "type": "./img/res/drake.png",
+      "typeClass": "type"
+    },
+    {
+      "key": "12",
+      "rarity": "gold",
+      "timer": "08:00",
+      "code": "D-422-MI",
+      "cost2": "8k",
+      "cost2Resource": "./img/res/gold.png",
+      "tags": [{ "key": "12_1", "name": "Before Sleep" }],
+      "loot": [
+        { "key": "12_2", "type": "./img/res/drake_icon.png" },
+        { "key": "12_3", "type": "./img/res/rbw_icon.png", "class": "small" }
+      ],
+      "type": "./img/res/drake.png",
+      "typeClass": "type"
+    }
+  ]
+]
