@@ -23,7 +23,7 @@ jobs:
         node-version: 14.x
     
     - name: Install Yarn packages
-      run: yarn install --frozen-lockfile
+      run: yarn --frozen-lockfile
     
     - name: Build project
       run: yarn run build
