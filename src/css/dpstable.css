@@ -134,3 +134,81 @@ a.btn:focus {
 .babufooter a {
   color: rgb(79, 220, 255);
 }
+
+/* nikke */
+
+.burst {
+  background-color: none;
+}
+
+.acegreen {
+  background-color: #56E39F;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  line-height: 75px;
+  margin: 5px;
+}
+
+.aceblue {
+  background-color: #49C6E5;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  line-height: 75px;
+  margin: 5px;
+}
+
+.spluspurple {
+  background-color: #cc99ff;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  line-height: 75px;
+  margin: 5px;
+}
+
+.splusgreen {
+  background-color: #73b248;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  line-height: 75px;
+  margin: 5px;
+}
+
+.agreen {
+  background-color: #a2cc86;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  line-height: 75px;
+  margin: 5px;
+}
+
+.bgreen {
+  background-color: #c6e0b4;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  line-height: 75px;
+  margin: 5px;
+}
+
+.aplusred {
+  background-color: tomato;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  line-height: 75px;
+  margin: 5px;
+}
+
+.ared {
+  background-color: salmon;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  line-height: 75px;
+  margin: 5px;
+}

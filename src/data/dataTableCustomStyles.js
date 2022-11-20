@@ -8,7 +8,7 @@ const customStyles = {
   },
   rows: {
     style: {
-      fontSize: "20px",
+      fontSize: "14px",
       fontWeight: 700,
       color: "#FFFFFF",
       borderTopStyle: "solid",
@@ -18,9 +18,10 @@ const customStyles = {
       minHeight: "81px",
       backgroundColor: "#343a40",
       justifyContent: "center",
+      textAlign: "center",
     },
     stripedStyle: {
-      fontSize: "20px",
+      fontSize: "14px",
       fontWeight: 700,
       color: "#FFFFFF",
       backgroundColor: "#3e444a",
@@ -37,7 +38,7 @@ const customStyles = {
   headCells: {
     style: {
       padding: "0px",
-      fontSize: "16px",
+      fontSize: "14px",
       fontWeight: 600,
       color: "#FFFFFF",
       backgroundColor: "#343a40",

@@ -11,25 +11,7 @@ const Header = () => {
           </div>
           <div className="navbar-links">
             <div className="nav-link-cu">
-              <Link to="/research">Research</Link>
-            </div>
-            <div className="nav-link-cu">
-              <Link to="/dps_chart_dd">Destroyers</Link>
-            </div>
-            <div className="nav-link-cu">
-              <Link to="/dps_chart_cl">Light Cruisers</Link>
-            </div>
-            <div className="nav-link-cu">
-              <Link to="/dps_chart_ca">Heavy Cruisers</Link>
-            </div>
-            <div className="nav-link-cu">
-              <Link to="/dps_chart_cv">Carriers</Link>
-            </div>
-            <div className="nav-link-cu">
-              <Link to="/dps_chart_bb_he">Battleships HE</Link>
-            </div>
-            <div className="nav-link-cu">
-              <Link to="/dps_chart_bb_ap">Battleships AP</Link>
+              <Link to="/nikke">Nikke</Link>
             </div>
             <div className="nav-link-cu">
               <a href="https://www.twitch.tv/baburubaburu">Stream</a>

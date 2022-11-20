@@ -128,7 +128,7 @@ const DPSAircraftCarriers = () => {
 
   return (
     <div>
-      <Title title="DPS CHART - AIRCRAFT CARRIERS" />
+      <Title title="NIKKE - EVALUATION CHART" />
       <div className="main-container">
         <DataTable
           columns={columns}
