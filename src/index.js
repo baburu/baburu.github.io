@@ -18,7 +18,6 @@ root.render(
       <Route path="/" element={<App />}>
         <Route path="/" element={<Navigate to="/nikke" />} />
         <Route path="nikke" element={<Nikke />} />
-        <Route path="dps_chart_dd" element={<DPSDestroyers />} />
       </Route>
     </Routes>
   </BrowserRouter>
