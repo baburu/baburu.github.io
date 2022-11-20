@@ -17,7 +17,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App />}>
         <Route path="/" element={<Navigate to="/nikke" />} />
-        <Route path="nikke" element={<Nikke />} />
+        <Route path="/nikke" element={<Nikke />} />
       </Route>
     </Routes>
   </BrowserRouter>

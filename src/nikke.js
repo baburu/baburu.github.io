@@ -174,6 +174,33 @@ const Nikke = () => {
     
   ];
 
+  const transformField = (field) => {
+    if (typeof field != "string") 
+        return field;
+    else if (field.includes("."))
+        return parseFloat(field);
+    else
+        return parseInt(field);
+};
+
+const customSort = (rows, selector, direction) => {
+ return rows.sort((rowA, rowB) => {
+ 
+  const aField = transformField(selector(rowA));
+  const bField = transformField(selector(rowB));
+
+  let comparison = 0;
+
+  if (aField > bField) {
+   comparison = 1;
+  } else if (aField < bField) {
+   comparison = -1;
+  }
+
+  return direction === 'desc' ? comparison * -1 : comparison;
+ });
+};
+
   return (
     <div>
       <Title title="NIKKE - EVALUATION CHART" />
@@ -185,6 +212,7 @@ const Nikke = () => {
           defaultSortAsc={false}
           defaultSortFieldId="Average"
           striped
+          sortFunction={customSort}
         />
         <DataTable
           columns={columns}
@@ -193,6 +221,7 @@ const Nikke = () => {
           defaultSortAsc={false}
           defaultSortFieldId="Average"
           striped
+          sortFunction={customSort}
         />
         <DataTable
           columns={columns}
@@ -201,6 +230,7 @@ const Nikke = () => {
           defaultSortAsc={false}
           defaultSortFieldId="Average"
           striped
+          sortFunction={customSort}
         />    
         <DataTable
           columns={columns}
@@ -209,6 +239,7 @@ const Nikke = () => {
           defaultSortAsc={false}
           defaultSortFieldId="Average"
           striped
+          sortFunction={customSort}
         />
         <DataTable
           columns={columns}
@@ -217,6 +248,7 @@ const Nikke = () => {
           defaultSortAsc={false}
           defaultSortFieldId="Average"
           striped
+          sortFunction={customSort}
         />
         <DataTable
           columns={columns}
@@ -225,6 +257,7 @@ const Nikke = () => {
           defaultSortAsc={false}
           defaultSortFieldId="Average"
           striped
+          sortFunction={customSort}
         />                                   
         <Footer />
       </div>
