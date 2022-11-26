@@ -61,16 +61,6 @@ const Nikke = () => {
       cell: (row) => `${row.range}`,
     },
     {
-      id: "Gun Correction Factor",
-      name: "Gun Correction Factor",
-      sortable: true,
-      center: true,
-      grow: 1.5,
-      style: { color: "burlywood" },
-      selector: (row) => row.guncorrectionfactor,
-      cell: (row) => `${row.guncorrectionfactor}`,
-    },
-    {
       id: "Cooldown",
       name: "Cooldown",
       sortable: true,

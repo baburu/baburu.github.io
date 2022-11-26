@@ -110,7 +110,7 @@
     "fullchargedmg": "100%",
     "hightheorydps": "108071",
     "guntypecorrdps": "80815",
-    "actualdps": "683380 \n108641",
+    "actualdps": "683380 - 108641",
     "buff": "745%-34%",
     "brief": "依赖爆裂技输出。非爆裂期间较为疲软,建议搭配沃伦姆等提升暴击、丽塔等提升攻击最大技能增益化。"
   },
@@ -317,7 +317,7 @@
     "fullchargedmg": "100%",
     "hightheorydps": "214034",
     "guntypecorrdps": "80815",
-    "actualdps": "135866 \n82771",
+    "actualdps": "135866 - 82771",
     "buff": "68%-2.42%",
     "brief": "整体定位、强度和白雪公主差不多,满体力大招非常扣分,而且也不过是白雪公主mini版本。"
   },
